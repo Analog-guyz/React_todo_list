@@ -1,0 +1,47 @@
+.todo-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    
+}
+
+.fa-times{
+    font-size: 2rem;
+    color: rgb(148, 38, 38);
+    margin-left: 10px;
+    cursor: pointer;
+}
+.fa-times:hover{
+    
+    color: rgb(221, 50, 50);
+}
+.task-bar{
+    width: 75%;
+    /* min-height: 40px; */
+    height: auto;
+    border: rgb(70, 70, 70) solid 0.2px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px 7px 0px 7px;
+    cursor: pointer;
+    word-wrap: break-word;
+
+}
+.items-wrapper{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.task-bar-text{
+    padding-left: 4.5px;
+    max-width: 90%;
+    
+    
+}
+.task-bar-text.done{
+    text-decoration: line-through;   
+   
+   
+   }
