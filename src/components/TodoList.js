@@ -1,6 +1,7 @@
 import './TodoList.css';
 import React,{useState,useEffect} from 'react';
 import Listitems from './Listitems';
+import list_bg from '../img/paper.jpg'
 function TodoList({addTodo,todos,remvoeTask,toggleComplete}) {
   const [todo, setTodo] = useState({
     id:"",
@@ -39,7 +40,7 @@ function TodoList({addTodo,todos,remvoeTask,toggleComplete}) {
   
   
   return (
-    <div  className= {height >465 ?"list-wrapper flow" :"list-wrapper"}>
+    <div  className= {height >465 ?"list-wrapper flow" :"list-wrapper"} style={{ backgroundImage: `url(${list_bg})` }} >
         <div className="title"><h1>Todo List</h1></div>
         <form className="add-wrapper" onSubmit={handleSubmit}>
             <input  value={todo.task} className="input" onChange={(e)=> handleChange(e)} placeholder=" Enter a task"></input>

@@ -4,7 +4,7 @@
     height: fit-content;
     min-height: 180px;
     /* background-color: #e0e08ffd; */
-    background-image:url("https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=349&q=80") ;
+    /* background-image:url("https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=349&q=80") ; */
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 40px;
